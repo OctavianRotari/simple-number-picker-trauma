@@ -1,0 +1,62 @@
+{
+  "_args": [
+    [
+      "react-native-simple-picker@1.2.1",
+      "/Users/octavianrotari/work/TraumaApp"
+    ]
+  ],
+  "_from": "react-native-simple-picker@1.2.1",
+  "_id": "react-native-simple-picker@1.2.1",
+  "_inBundle": false,
+  "_integrity": "sha1-+PFNa3SZlAr6mc7c7yoOuLbJfyA=",
+  "_location": "/react-native-simple-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "react-native-simple-picker@1.2.1",
+    "name": "react-native-simple-picker",
+    "escapedName": "react-native-simple-picker",
+    "rawSpec": "1.2.1",
+    "saveSpec": null,
+    "fetchSpec": "1.2.1"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-simple-picker/-/react-native-simple-picker-1.2.1.tgz",
+  "_spec": "1.2.1",
+  "_where": "/Users/octavianrotari/work/TraumaApp",
+  "author": {
+    "name": "Chris A"
+  },
+  "bugs": {
+    "url": "https://github.com/puredazzle/react-native-simple-picker/issues"
+  },
+  "description": "A simple iOS picker for React Native",
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "eslint-config-airbnb": "^6.2.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
+  "files": [
+    "index.js"
+  ],
+  "homepage": "https://github.com/puredazzle/react-native-simple-picker#readme",
+  "keywords": [
+    "React-Native",
+    "Picker",
+    "PickerIOS"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-simple-picker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puredazzle/react-native-simple-picker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.1"
+}
