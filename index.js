@@ -72,19 +72,8 @@ class SimplePicker extends Component {
   }
 
   componentWillReceiveProps(props) {
-    // If options are changing, and our current selected option is not part of
-    // the new options, update it.
-    if( props.options && props.options.length > 0 ) {
-      const previousOption = this.state.selectedOption;
-      this.setState({
-        selectedOption : props.selectedOption
-      }, () => {
-        // Options array changed and the previously selected option is not present anymore.
-        // Should call onSubmit function to tell parent to handle the change too.
-        if(previousOption) {
-          this.onPressSubmit();
-        }
-      });
+    if (props !== this.props.selectedOption) {
+      this.setState({selectedOption : props.selectedOption});
     }
   }
 
